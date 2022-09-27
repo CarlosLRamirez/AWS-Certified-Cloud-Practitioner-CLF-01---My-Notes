@@ -1,9 +1,8 @@
-#aws #cloudpractitioner #learning
 
-AWS Certified Cloud Practitioner (CLF-01) - My Notes/Flash Cards
+# AWS Certified Cloud Practitioner (CLF-01) - My Notes/Flash Cards
 
-#  Domain 1 : Cloud Concepts
-## Subdomain 1.1 Define the AWS Cloud and its value proposition
+##  Domain 1 : Cloud Concepts
+### Subdomain 1.1 Define the AWS Cloud and its value proposition
 
 - Client-server model
 	- In computing, a **client** can be a web browser or desktop application that a person interacts with, to make requests to computer **servers**.
@@ -121,8 +120,7 @@ AWS Certified Cloud Practitioner (CLF-01) - My Notes/Flash Cards
 - `Retaining` consists of keeping applications that are critical for the business in the source environment. This might include applications that require major refactoring before they can be migrated, or, work that can be postponed until a later time.
 - `Retiring` is the process of removing applications that are no longer needed.
 
-
-## Subdomain 1.2 Identify aspects of AWS Cloud economics
+### Subdomain 1.2 Identify aspects of AWS Cloud economics
 - What is CapEx
 	- Capital Expenditure
 	- Cost associated with creating the long-term benefits,
@@ -153,7 +151,7 @@ AWS Certified Cloud Practitioner (CLF-01) - My Notes/Flash Cards
 	- Utilize reserved instances
 	- Right size your resources
 
-## Subdomain 1.3 Explain the different cloud architecture design principles
+### Subdomain 1.3 Explain the different cloud architecture design principles
 - The 6 pillars of the `well-architected framework` are a high-level description of principles and best practices that should always be followed when creating architecture in the AWS cloud.
 - The 6 pillars of the well-architected frameworks are:
 	- Operation excellence
@@ -222,7 +220,7 @@ AWS Certified Cloud Practitioner (CLF-01) - My Notes/Flash Cards
 
 
 
-## Additional Resources
+### Additional Resources
 -  [AWS Fundamentals - Core Concepts](https://aws.amazon.com/getting-started/fundamentals-core-concepts/)
 - [AWS Certified Cloud Practitioner (CLF-C01) Exam Guide](https://d1.awsstatic.com/training-and-certification/docs-cloud-practitioner/AWS-Certified-Cloud-Practitioner_Exam-Guide.pdf)
 - [Your AWS Terminology Cheat Sheet](https://acloudguru.com/blog/engineering/your-aws-terminology-cheat-sheet)
@@ -244,8 +242,8 @@ AWS Certified Cloud Practitioner (CLF-01) - My Notes/Flash Cards
 
 
 
-# Domain 2: Security and Compliance
-## 2.1 Define the AWS shared responsibility model 
+## Domain 2: Security and Compliance
+### 2.1 Define the AWS shared responsibility model 
 - Shared Responsibility Model, on a few words:
 	- AWS is responsible for security **"of"** the cloud, Customer is responsible for security **"in"** the cloud
 - Elements on which **AWS** is responsible:
@@ -294,7 +292,7 @@ AWS Certified Cloud Practitioner (CLF-01) - My Notes/Flash Cards
 
 
 
-## 2.2 Define AWS Cloud security and compliance concepts 
+### 2.2 Define AWS Cloud security and compliance concepts 
 - **AWS Config:**
 	- AWS Config allows you to assess, audit, and evaluate the configuration of your resources. Think of "guard rails" for you configuration **changes**.
 - With **AWS Config** you can:
@@ -377,7 +375,7 @@ AWS Certified Cloud Practitioner (CLF-01) - My Notes/Flash Cards
 
 
 
-## 2.3 Identify AWS access management capabilities 
+### 2.3 Identify AWS access management capabilities 
 - AWS root account user
 	- Created when you initially sign up for your AWS account
 	- Identified by the email you use when you open your account
@@ -457,7 +455,7 @@ AWS Certified Cloud Practitioner (CLF-01) - My Notes/Flash Cards
 	- rotate security credentials regularly (access keys)
 - The `IAM Credential Report` list all users in your account and the status of their various credentials, it's used for auditing and compliance.
 
-## 2.4 Identify resources for security support 
+### 2.4 Identify resources for security support 
 - Web Application Firewall (WAF)
 	- WAF helps protect your **web** applications against common web attacks like common attack patters, SQL injection, cross-site scripting attacks.
 - AWS WAF works together with `Amazon CloudFront` and an `Application Load Balancer`
@@ -482,8 +480,7 @@ AWS Certified Cloud Practitioner (CLF-01) - My Notes/Flash Cards
 
 
 
-
-## Additional Resources
+### Additional Resources
 - [Tasks that require root user credentials](https://docs.aws.amazon.com/general/latest/gr/root-vs-iam.html#aws_tasks-that-require-root)
 - [Security best practices in IAM](https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html)
 - [Web Access Control Lists](https://docs.aws.amazon.com/waf/latest/developerguide/web-acl.html)
@@ -496,9 +493,8 @@ AWS Certified Cloud Practitioner (CLF-01) - My Notes/Flash Cards
 
 
 
-
-# Domain 3: Technology
-## 3.1 Define methods of deploying and operating in the AWS Cloud
+## Domain 3: Technology
+### 3.1 Define methods of deploying and operating in the AWS Cloud
 - Different ways to interact and provision AWS services are:
 	- AWS Management Console
 	- AWS Command Line Interface (CLI)
@@ -542,8 +538,7 @@ AWS Certified Cloud Practitioner (CLF-01) - My Notes/Flash Cards
 - Hybrid deployment
 	- Connect cloud-based resources to on-premises infrastructure
 	- Integrate cloud-based resources with legacy IT applications
-
-## 3.2 Define the AWS global infrastructure
+### 3.2 Define the AWS global infrastructure
 - Amazon Regions
 	- The first (top) level of AWS Global Infrastructure
 	- Geographic location fully independent and isolated.
@@ -588,7 +583,7 @@ AWS Certified Cloud Practitioner (CLF-01) - My Notes/Flash Cards
 - **AWS Global Accelerator**
 	- is a networking service that improves the availability and performance of the applications that you offer to your global users. 
 - `AWS Global Accelerator` uses the highly available and congestion-free AWS global network to direct internet traffic from your users to your applications on AWS, making your users’ experience more consistent.
-## 3.3 Identify the core AWS services 
+### 3.3 Identify the core AWS services 
 - **Amazon Elastic Compute Cloud** (**Amazon EC2**)
 	- Provides secure, **resizable** (elastic) compute capacity in the cloud called EC2 **instances**
 	- EC2 instances are virtual servers in the AWS Data Centers
@@ -1083,8 +1078,7 @@ AWS Certified Cloud Practitioner (CLF-01) - My Notes/Flash Cards
 - AWS email service that allows you to send richly formatted HTML emails from your applications.
 	- **Amazon Simple Email Service (SES)**
 - 
-
-## 3.4 Identify resources for technology support
+### 3.4 Identify resources for technology support
 - The 4 **support** plans available on AWS are:
 	- Basic
 	- Developer
@@ -1222,8 +1216,7 @@ AWS Certified Cloud Practitioner (CLF-01) - My Notes/Flash Cards
 	- Checks for service usage greater that 80% over service limit (Enterprise or Business support required)
 	- Checks for exposed access keys (Enterprise or Business support required)
 	- Checks for CloudFront content delivery optimization (Enterprise or Business support required)
-
-## Additional Resources
+### Additional Resources
 - [Overview of Amazon Web Services](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/aws-overview.pdf)
 - [Networking and Content Delivery on AWS](https://aws.amazon.com/products/networking)
 - [AWS Networking & Content Delivery Blog](https://aws.amazon.com/blogs/networking-and-content-delivery/)
@@ -1253,10 +1246,8 @@ AWS Certified Cloud Practitioner (CLF-01) - My Notes/Flash Cards
 
 
 
-
-
-# Domain 4: Billing an Pricing
-## 4.1 Compare and contrast the various pricing models for AWS (for example, On-Demand Instances, Reserved Instances, and Spot Instance pricing) 
+## Domain 4: Billing an Pricing
+### 4.1 Compare and contrast the various pricing models for AWS (for example, On-Demand Instances, Reserved Instances, and Spot Instance pricing) 
 - The 3 **fundamental drivers** of cost on AWS:
 	- Compute
 	- Storage
@@ -1301,8 +1292,7 @@ AWS Certified Cloud Practitioner (CLF-01) - My Notes/Flash Cards
 	- Hardware and infrastructure
 	- Software licence costs
 	- Data center cooling, power, and space requirements.
-
-## 4.2 Recognize the various account structures in relation to AWS billing and pricing
+### 4.2 Recognize the various account structures in relation to AWS billing and pricing
 - Allows you to centrally manage multiple AWS accounts under one umbrella?
 	- **AWS Organizations**
 - With **AWS Organizations** you can create groups of accounts, true or false?
@@ -1338,8 +1328,7 @@ AWS Certified Cloud Practitioner (CLF-01) - My Notes/Flash Cards
 	- **AWS System Manager**
 - Let say you need to deploy operating system and software patches automatically across a large group of instances, which tool will you use:
 	- **AWS System Manager**
-
-## 4.3 Identify resources available for billing support
+### 4.3 Identify resources available for billing support
 - AWS service that helps you plan migration project to the AWS Cloud, can used to estimate the **TCO** 
 	- **Application Discovery Service** 
 - AWS tool that let you explore AWS services and create an estimate for the cost of you use cases on AWS **(TCO)**.
@@ -1366,8 +1355,7 @@ AWS Certified Cloud Practitioner (CLF-01) - My Notes/Flash Cards
 	- True
 - `Tags` allow you to label your AWS resources using a key and value pair.
 - **Tags** allow you to track cost via the `cost allocation report`. 
-
-## Additional Resources
+### Additional Resources
 - [How AWS Pricing Works](https://docs.aws.amazon.com/whitepapers/latest/how-aws-pricing-works/welcome.html)
 - [AWS Free Tier](https://aws.amazon.com/free/)
 - [AWS Cost and Usage Reports](https://docs.aws.amazon.com/cur/latest/userguide/what-is-cur.html)
@@ -1379,9 +1367,7 @@ AWS Certified Cloud Practitioner (CLF-01) - My Notes/Flash Cards
 - [AWS Pricing](https://aws.amazon.com/pricing)
 - [AWS Cost Management](https://aws.amazon.com/aws-cost-management/)
 
-
-
-# Quizzes/Sample Questions
+## Quizzes/Sample Questions
 - Which statement best describes an IAM policy?
 	- An authentication process that provides an extra layer of protection for your AWS account
 	- `A document that grants or denies permissions to AWS services and resources`
