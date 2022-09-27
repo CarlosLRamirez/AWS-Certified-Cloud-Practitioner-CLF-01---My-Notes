@@ -3,7 +3,6 @@
 
 ##  Domain 1 : Cloud Concepts
 ### Subdomain 1.1 Define the AWS Cloud and its value proposition
-
 - Client-server model
 	- In computing, a **client** can be a web browser or desktop application that a person interacts with, to make requests to computer **servers**.
 - Cloud computing definition:
@@ -216,9 +215,6 @@
 	- Decouple components vs monolithic architecture
 	- Implement elasticity in the cloud vs on-premise
 	- Think parallel
-- 
-
-
 
 ### Additional Resources
 -  [AWS Fundamentals - Core Concepts](https://aws.amazon.com/getting-started/fundamentals-core-concepts/)
@@ -237,9 +233,6 @@
 - [AWS Customer Stories: Data Center Migration](https://aws.amazon.com/solutions/case-studies/?customer-references-cards.sort-by=item.additionalFields.publishedDate&customer-references-cards.sort-order=desc&awsf.customer-references-location=*all&awsf.customer-references-segment=*all&awsf.customer-references-product=product%23vpc%7Cproduct%23api-gateway%7Cproduct%23cloudfront%7Cproduct%23route53%7Cproduct%23directconnect%7Cproduct%23elb&awsf.customer-references-category=category%23datacenter-migration)
 - [AWS Pricing/TCO Tools](https://docs.aws.amazon.com/whitepapers/latest/how-aws-pricing-works/aws-pricingtco-tools.html)
 - [Optimizing your cost with Rightsizing Recommendations](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/ce-rightsizing.html)
-
-
-
 
 
 ## Domain 2: Security and Compliance
@@ -287,10 +280,6 @@
 	- **Amazon Certificate Manager**
 - **Amazon Certificate Manager** provides public and private certificates for free. True or False
 	- True.
- 
- 
-
-
 
 ### 2.2 Define AWS Cloud security and compliance concepts 
 - **AWS Config:**
@@ -371,9 +360,6 @@
 	- **CloudTrail Insights**
 - With **CloudTrail** you can view metrics and graphs to monitor the performance of resources (True or False)
 	- False, this can be done with **CloudWatch**
-
-
-
 
 ### 2.3 Identify AWS access management capabilities 
 - AWS root account user
@@ -476,10 +462,6 @@
 - AWS services that helps you to protect sensitive data, it uses machine learning to evaluate S3 environment and uncovers PII.
 	- AWS Macie
 
-
-
-
-
 ### Additional Resources
 - [Tasks that require root user credentials](https://docs.aws.amazon.com/general/latest/gr/root-vs-iam.html#aws_tasks-that-require-root)
 - [Security best practices in IAM](https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html)
@@ -490,7 +472,6 @@
 - [AWS Security Blog](https://aws.amazon.com/blogs/security/)
 - [AWS Customer Stories: Security, Identity, and Compliance](https://aws.amazon.com/solutions/case-studies/?customer-references-cards.sort-by=item.additionalFields.publishedDate&customer-references-cards.sort-order=desc&awsf.customer-references-location=*all&awsf.customer-references-segment=*all&awsf.customer-references-product=product%23vpc%7Cproduct%23api-gateway%7Cproduct%23cloudfront%7Cproduct%23route53%7Cproduct%23directconnect%7Cproduct%23elb&awsf.customer-references-category=category%23security-identity-compliance)
 - [AWS Compliance](https://aws.amazon.com/compliance)
-
 
 
 ## Domain 3: Technology
@@ -538,6 +519,7 @@
 - Hybrid deployment
 	- Connect cloud-based resources to on-premises infrastructure
 	- Integrate cloud-based resources with legacy IT applications
+
 ### 3.2 Define the AWS global infrastructure
 - Amazon Regions
 	- The first (top) level of AWS Global Infrastructure
@@ -583,6 +565,7 @@
 - **AWS Global Accelerator**
 	- is a networking service that improves the availability and performance of the applications that you offer to your global users. 
 - `AWS Global Accelerator` uses the highly available and congestion-free AWS global network to direct internet traffic from your users to your applications on AWS, making your users’ experience more consistent.
+
 ### 3.3 Identify the core AWS services 
 - **Amazon Elastic Compute Cloud** (**Amazon EC2**)
 	- Provides secure, **resizable** (elastic) compute capacity in the cloud called EC2 **instances**
@@ -1077,7 +1060,7 @@
 	- True
 - AWS email service that allows you to send richly formatted HTML emails from your applications.
 	- **Amazon Simple Email Service (SES)**
-- 
+
 ### 3.4 Identify resources for technology support
 - The 4 **support** plans available on AWS are:
 	- Basic
@@ -1105,8 +1088,7 @@
 	- Limited section of AWS Trusted Advisor checks.
 	- AWS Personal Health Dashboard
 - Customers with **AWS Developer Support** plan have access to *additional* features such as:
-	- **Technical support** 
-		- *such as best practice guidance, client-side diagnostic tools,  building-block architecture support*
+	- **Technical support** , *such as best practice guidance, client-side diagnostic tools,  building-block architecture support*
 	- You can have **1 primary contact**
 	- You can open **unlimited** cases
 	- You have access to **Cloud Support Associates** at **Business hours** via **email** only.
@@ -1216,6 +1198,7 @@
 	- Checks for service usage greater that 80% over service limit (Enterprise or Business support required)
 	- Checks for exposed access keys (Enterprise or Business support required)
 	- Checks for CloudFront content delivery optimization (Enterprise or Business support required)
+
 ### Additional Resources
 - [Overview of Amazon Web Services](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/aws-overview.pdf)
 - [Networking and Content Delivery on AWS](https://aws.amazon.com/products/networking)
@@ -1243,7 +1226,6 @@
 - [Migration & Transfer on AWS](https://aws.amazon.com/products/migration-and-transfer)
 - [A Process for Mass Migrations to the Cloud](https://aws.amazon.com/blogs/enterprise-strategy/214-2/)
 - [6 Strategies for Migrating Applications to the Cloud](https://aws.amazon.com/blogs/enterprise-strategy/6-strategies-for-migrating-applications-to-the-cloud/)
-
 
 
 ## Domain 4: Billing an Pricing
@@ -1292,6 +1274,7 @@
 	- Hardware and infrastructure
 	- Software licence costs
 	- Data center cooling, power, and space requirements.
+
 ### 4.2 Recognize the various account structures in relation to AWS billing and pricing
 - Allows you to centrally manage multiple AWS accounts under one umbrella?
 	- **AWS Organizations**
@@ -1328,6 +1311,7 @@
 	- **AWS System Manager**
 - Let say you need to deploy operating system and software patches automatically across a large group of instances, which tool will you use:
 	- **AWS System Manager**
+
 ### 4.3 Identify resources available for billing support
 - AWS service that helps you plan migration project to the AWS Cloud, can used to estimate the **TCO** 
 	- **Application Discovery Service** 
@@ -1355,6 +1339,7 @@
 	- True
 - `Tags` allow you to label your AWS resources using a key and value pair.
 - **Tags** allow you to track cost via the `cost allocation report`. 
+
 ### Additional Resources
 - [How AWS Pricing Works](https://docs.aws.amazon.com/whitepapers/latest/how-aws-pricing-works/welcome.html)
 - [AWS Free Tier](https://aws.amazon.com/free/)
