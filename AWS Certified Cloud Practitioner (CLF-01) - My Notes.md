@@ -1,6 +1,8 @@
 
 # AWS Certified Cloud Practitioner (CLF-01) - My Notes/Flash Cards
 
+You can find the Anki Deck [here](AWS%20Certified%20Cloud%20Practitioner%20Exam.apkg) 
+
 - [AWS Certified Cloud Practitioner (CLF-01) - My Notes/Flash Cards](#aws-certified-cloud-practitioner-clf-01---my-notesflash-cards)
 	- [Domain 1 : Cloud Concepts](#domain-1--cloud-concepts)
 		- [Subdomain 1.1 Define the AWS Cloud and its value proposition](#subdomain-11-define-the-aws-cloud-and-its-value-proposition)
