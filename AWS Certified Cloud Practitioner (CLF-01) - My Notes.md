@@ -1,6 +1,32 @@
 
 # AWS Certified Cloud Practitioner (CLF-01) - My Notes/Flash Cards
 
+- [AWS Certified Cloud Practitioner (CLF-01) - My Notes/Flash Cards](#aws-certified-cloud-practitioner-clf-01---my-notesflash-cards)
+	- [Domain 1 : Cloud Concepts](#domain-1--cloud-concepts)
+		- [Subdomain 1.1 Define the AWS Cloud and its value proposition](#subdomain-11-define-the-aws-cloud-and-its-value-proposition)
+		- [Subdomain 1.2 Identify aspects of AWS Cloud economics](#subdomain-12-identify-aspects-of-aws-cloud-economics)
+		- [Subdomain 1.3 Explain the different cloud architecture design principles](#subdomain-13-explain-the-different-cloud-architecture-design-principles)
+		- [Additional Resources](#additional-resources)
+	- [Domain 2: Security and Compliance](#domain-2-security-and-compliance)
+		- [2.1 Define the AWS shared responsibility model](#21-define-the-aws-shared-responsibility-model)
+		- [2.2 Define AWS Cloud security and compliance concepts](#22-define-aws-cloud-security-and-compliance-concepts)
+		- [2.3 Identify AWS access management capabilities](#23-identify-aws-access-management-capabilities)
+		- [2.4 Identify resources for security support](#24-identify-resources-for-security-support)
+		- [Additional Resources](#additional-resources-1)
+	- [Domain 3: Technology](#domain-3-technology)
+		- [3.1 Define methods of deploying and operating in the AWS Cloud](#31-define-methods-of-deploying-and-operating-in-the-aws-cloud)
+		- [3.2 Define the AWS global infrastructure](#32-define-the-aws-global-infrastructure)
+		- [3.3 Identify the core AWS services](#33-identify-the-core-aws-services)
+		- [3.4 Identify resources for technology support](#34-identify-resources-for-technology-support)
+		- [Additional Resources](#additional-resources-2)
+	- [Domain 4: Billing an Pricing](#domain-4-billing-an-pricing)
+		- [4.1 Compare and contrast the various pricing models for AWS (for example, On-Demand Instances, Reserved Instances, and Spot Instance pricing)](#41-compare-and-contrast-the-various-pricing-models-for-aws-for-example-on-demand-instances-reserved-instances-and-spot-instance-pricing)
+		- [4.2 Recognize the various account structures in relation to AWS billing and pricing](#42-recognize-the-various-account-structures-in-relation-to-aws-billing-and-pricing)
+		- [4.3 Identify resources available for billing support](#43-identify-resources-available-for-billing-support)
+		- [Additional Resources](#additional-resources-3)
+	- [Quizzes/Sample Questions](#quizzessample-questions)
+
+
 ##  Domain 1 : Cloud Concepts
 ### Subdomain 1.1 Define the AWS Cloud and its value proposition
 - Client-server model
